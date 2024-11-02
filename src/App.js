@@ -61,7 +61,7 @@ function App() {
     setFiltredPosts((prevPosts) =>
       prevPosts.map(post => post.id === detailPost.id ? detailPost : post)
     );
-    setIsEditing(false); // Disable editing mode after saving
+    setIsEditing(false);
   };
 
   return (
